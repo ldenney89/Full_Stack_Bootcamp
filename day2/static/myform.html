@@ -24,7 +24,7 @@
                     <td align="right">country</td>
                     <td>
                         <select name="country">
-                            <option value=-1 selected>[select country]
+                            <option value="-1" selected>[select country]
                             </option>
                             <option value="1">India</option>
                             <option value="2">USA</option>
@@ -34,10 +34,15 @@
                 </tr>
                 <tr>
                     <td></td>
-                    <td><input type="submit"></td>
+                    <td><input type="submit" value="submit"></td>
                 </tr>
             </table>
         </form>
+
+        <div onmouseover="mouseactive()" onmouseout="mouseleft()">this is div tag</div>
+        <div id='pro'></div>
+        <button onclick="myfun3()">call it</button>
+        <button onclick="myfun4()">grade check!</button>
         <script src="welcome.js"></script>
     </body>
 </html>
