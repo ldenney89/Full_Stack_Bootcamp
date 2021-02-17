@@ -68,5 +68,3 @@ input[type="submit"] {
     padding: 10px 15px;
     cursor: pointer;
 }
-
-------
